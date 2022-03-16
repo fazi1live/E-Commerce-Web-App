@@ -24,6 +24,8 @@ app.use((req,res,next)=>{
 });
 
 
+
+
 app.use('/AboutUsTeamImages',express.static('AboutUsTeamImages'));
 app.use('/videos',express.static('videos'));
 app.use('/AboutUsComponentImages',express.static('AboutUsComponentImages'));
